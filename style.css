@@ -151,3 +151,48 @@ color: white;
 {
     color: peru;
 }
+/* section-3 works from here */
+.section-3
+{
+    width: 1400px;
+    height:500px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 150px;
+    /* background-size: 1400px 500px; */
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.section-3 div{
+      position: absolute;
+      top: 150px;
+      left: 490px;
+      text-align: center;
+      font-family: Merriweather;
+      font-size: 25px;
+      font-weight: 600;
+      text-transform: capitalize;
+}
+.date{
+    color:#070211;
+}
+.s-d{
+   color: #F00;
+}
+.s-3-join{
+   color: white;
+   font-size:20px;
+   font-weight: 600;
+   font-family: Merriweather;
+   position: absolute;
+   padding:10px 20px;
+   border-radius: 8%;
+   background-color: #F00;
+   border-style: none;
+   top:370px;
+   left:610px;
+}
+.s-3-join a{
+    text-decoration: none;
+    color: white;
+}
