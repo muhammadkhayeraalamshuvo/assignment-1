@@ -2,7 +2,7 @@ header{
     text-align: center;
     width: 1400px;
     height: 650px;
-    /* background-image: url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    /* background-image: url(resources/Banner\ Image.png);
     background-repeat: no-repeat; */
     background-size: 1320px 650px;
     /* background-position:61%; */
@@ -10,7 +10,7 @@ header{
     color: whitesmoke;
     /* margin: auto; */
     background: linear-gradient(180deg,
-    #070211, #07021100),url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    #070211, #07021100),url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
     position: relative;
     opacity: .9;
@@ -95,14 +95,14 @@ margin-bottom: 8px;
 {
     width: 1400px;
     height: 600px;
-    /* background-image: url(B9A1-New-Year-New-Mission/resources/Vectorrr.png);
+    /* background-image: url(resources/Vectorrr.png);
     background-repeat: no-repeat; */
     background-size: 1400px 650px;
     
     background:linear-gradient(
         to right,
         #070211, #07021100
-    ),url(B9A1-New-Year-New-Mission/resources/Vectorrr.png);
+    ),url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 5px;
    
