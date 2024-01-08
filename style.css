@@ -162,6 +162,7 @@ color: white;
     border-radius: 5px;
     text-align: center;
     position: relative;
+    
 }
 .section-3 div{
       position: absolute;
@@ -195,4 +196,130 @@ color: white;
 .s-3-join a{
     text-decoration: none;
     color: white;
+}
+/* bonus part section */
+.bonus-part-section{
+    width: 1300px;
+    height: 800px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    
+    margin-left: 80px;
+    margin-bottom: 100px;
+    
+    
+    
+    position: relative;
+}
+.part-1{
+    font-family: Merriweather;
+    width:33%;
+
+}
+.part-1 .new-offer{
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.part-1 h4
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.part-1 .about
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(13, 11, 15, 0.6);
+}
+.bonus-img
+{
+   
+   width: 250px;
+   height: 250px;
+   /* border: 15px solid red;
+   border-radius: 50%;
+   outline-offset: 10px; */
+   outline: 10px solid red;
+   outline-offset: 15px;
+   border-radius: 50%;
+}
+.part-2{
+    width: 33%;
+}
+.part-2 .p-2-title
+{
+    color:rgb(228, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.part-2 .p-2-about
+{
+    font-family: Merriweather;
+    font-size: 18px;
+    color: rgba(13, 11, 15, 0.6);
+}
+.part-2 .p-2-img
+{
+    width:20%;
+    height:20%;
+}
+/* images part section-4 */
+
+.section-4
+{
+    width: 1300px;
+    height: 1000px;
+
+    /* background-color: red; */
+    position: relative;
+  
+}
+.sec-4-head
+{
+    position: absolute;
+     top:0px;
+     left: 150px;
+     
+     
+}
+.sec-4-title
+{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.section-4 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-size: 800;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.sec-4-about
+{
+    font-size:18px;
+    width:60%;
+    
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    padding: 150px;
+}
+.img-class
+{
+    width:97%;
+    height: 322px;
+    
 }
