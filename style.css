@@ -106,6 +106,8 @@ margin-bottom: 8px;
     ),url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 5px;
+    position: relative;
+    
    
     
 }
@@ -146,11 +148,23 @@ font-weight: 700;
 text-transform: uppercase;
 margin: 430px 170px;
 color: white;
-    
+/* display: block;
+width: 70px;
+height: 70px;
+     */
 }
 .section-2 .join a:hover
 {
     color: peru;
+}
+.section-2 img{
+     position: absolute;
+     top:70px ;
+     right:236px ;
+     /* mix-blend-mode: color; */
+     /* color: purple; */
+     
+  
 }
 /* section-3 works from here */
 .section-3
