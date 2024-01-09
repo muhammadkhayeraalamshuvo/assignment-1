@@ -135,6 +135,7 @@ font-style: normal;
 font-weight: 400;
 width: 60%;
 }
+
 .section-2 .join a
 {
     position: absolute;
@@ -286,6 +287,104 @@ height: 70px;
     width:20%;
     height:20%;
 }
+
+
+
+/* bonus part-2 starts from here  */
+
+.section-last
+{
+    width: 1300px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.section-last div
+{
+    /* width: 1300px;
+    height: 600px; */
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    margin-bottom: 50px;
+}
+.section-last div .title
+{
+    color: #070211;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0px;
+}
+.section-last div h2{
+    color:#070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+.section-last div h2 span
+{
+    color: red;
+}
+.section-last div .about
+{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 32px; 160% */
+margin-top: 20px;
+width: 70%;
+
+}
+.sec-last-img 
+{
+    position: relative;
+}
+.sec-last-img .img-1
+{
+    position: relative;
+    top: 20px;
+    right:-465px;
+
+
+}
+.sec-last-img .img-2
+{
+  position: relative;
+  top:20px;
+  left: 20px;
+}
+.sec-last-img .img-3
+{ 
+    position: relative;
+    bottom: 477px;
+    left:-247px ;
+    width:524px;
+    height: 424px;
+}
+.sec-last-img .img-4
+{
+    position: relative;
+    bottom: 978px;
+    right:-240px;
+}
+
+
+
+
+
 /* images part section-4 */
 
 .section-4
@@ -295,9 +394,9 @@ height: 70px;
 
     /* background-color: red; */
     position: relative;
-  
+    top: 400px;
 }
-.sec-4-head
+.section-4 .sec-4-head
 {
     position: absolute;
      top:0px;
@@ -305,7 +404,7 @@ height: 70px;
      
      
 }
-.sec-4-title
+.section-4 .sec-4-title
 {
     color: orangered;
     font-size: 30px;
@@ -355,6 +454,7 @@ height: 70px;
     background: rgba(255, 0, 0, 0.05);
     position: relative;
     left:115px;
+    top: 400px;
 }
 .subscribe h3
 {
@@ -420,6 +520,7 @@ footer{
     /* width: 1400px; */
     height: 600px;
     position: relative;
+    top: 400px;
 }
 .big-build
 {
