@@ -336,7 +336,10 @@ height: 70px;
 {
     width:97%;
     height: 322px;
-    
+    cursor: pointer;
+}
+.img-class:hover{
+    box-shadow: 2px 2px 15px ;
 }
 /* subscribe part starts from here */
 .subscribe{
