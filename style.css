@@ -4,16 +4,17 @@ header{
     height: 650px;
     /* background-image: url(resources/Banner\ Image.png);
     background-repeat: no-repeat; */
-    background-size: 1320px 650px;
+    /* background-size: 1320px 650px; */
     /* background-position:61%; */
     font-family: Merriweather;
     color: whitesmoke;
+    /* background-size: cover; */
     /* margin: auto; */
     background: linear-gradient(180deg,
     #070211, #07021100),url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
     position: relative;
-    opacity: .9;
+    /* opacity: .9; */
 }
 .call
 {
